@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "QuickSave",
+  "version": "1.0",
+  "description": "Save webpages for later reading.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
