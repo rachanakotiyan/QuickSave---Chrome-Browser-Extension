@@ -1,0 +1,39 @@
+
+body {
+  width: 300px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background: #f5f1eb;
+  color: #292929;
+}
+
+h2 {
+  margin-bottom: 4px;
+}
+
+p {
+  color: #777;
+}
+
+button {
+  padding: 9px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #506f4b;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+
+li button {
+  margin-left: 8px;
+  background: #777;
+}
