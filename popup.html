@@ -1,19 +1,21 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>QuickSave</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
   <h2>QuickSave</h2>
   <p>Your personal reading list.</p>
 
   <button id="saveBtn">Save Current Page</button>
 
+  <p id="message"></p>
+
   <h3>Saved Pages</h3>
+
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search saved pages..."
+  >
+
   <ul id="savedList"></ul>
 
   <script src="popup.js"></script>
 </body>
-</html>
